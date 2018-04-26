@@ -32,7 +32,7 @@ function parseTree(a) {
 
 function nexusTree() {
 
-  d3.text("data/mrbayes_nexus.nex", function (error, reftree) {
+  d3.text("data/mrbayes_run.nex", function (error, reftree) {
 
     var nexus_array = reftree.split("\n");
     var tree_data = [];
